@@ -23,3 +23,22 @@ Conventionally, in games with similar systems, the points are called pp for perf
 
 # Data
 You can contact Syndric for the most recent star rating data or for the algorithm if it would be easier in the future to calculate for new texts.
+
+# Website Design Changes
+To accommodate for adding a performance point system and to make the user experience both more enjoyable and informative, there are a few things I think would be simple to add but effective for the aforementioned reasons.
+## Star Ratings
+Star ratings of maps should be displayed on
+- the countdown/in-game screen next to either the "leave" button or the ping display.
+- the end screen after finishing a map, possibly next to contributor
+- the text leaderboard info bar, possibly under contributor
+- possibly on the matches (and top scores) tab for each text
+## Point displays
+Performance points for a given play should be displayed on
+- its own column on text leaderboards (end screen, and leaderboard pages)
+- its own column on your matches (and top scores) page
+- possibly on the end screen of a text below wpm or somewhere similar
+- on replay pages where general information is displayed
+## Profile changes
+- next to "general, matches, achievements, tournaments" possibly between general and matches, there should be a "top scores" tab or something similar, that is like the matches tab, except the placement on the left is your placement for the text leaderboard itself (side note, it would be nice if the card itself linked to the text leaderboard for both the matches and top scores tabs)
+- a new rectangle in the general tab that displays information like highest point play, total points, and rank
+(another side note, it would be nice if all text leaderboards had a link to the replay if one is available)
