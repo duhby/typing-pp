@@ -18,6 +18,9 @@ To calculate someone's total points (see total_points.py), you first need to sor
 points * (0.97 ** (n-1))
 ```
 
+# Accuracy
+For calculations, the star ratings should go to at least 4 decimal places. For displaying on the website, they should only go to 2 decimals. For points, they should also only go to 2 decimals for both calculations and displaying on the webiste.
+
 # Naming
 Conventionally, in games with similar systems, the points are called pp for performance points. So, for example, you would say that the highest pp play was done by joshu and is worth 667pp. However, Aevistar doesn't think it's a good idea to use this naming system, so we have thought of a few other options. There's tp (typing points), kp (keymash points), and mp (mash points), although a few vocal users in #general like tp the best because it looks like toilet paper.
 
