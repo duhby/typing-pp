@@ -25,7 +25,9 @@ For calculations, the star ratings should go to at least 4 decimal places. For d
 Conventionally, in games with similar systems, the points are called pp for performance points. So, for example, you would say that the highest pp play was done by joshu and is worth 667pp. However, Aevistar doesn't think it's a good idea to use this naming system, so we have thought of a few other options. There's tp (typing points), kp (keymash points), and mp (mash points), although a few vocal users in #general like tp the best because it looks like toilet paper.
 
 # Data
-You can contact Syndric for the most recent star rating data or for the algorithm if it would be easier in the future to calculate for new texts.
+You can contact Syndric for the most recent star rating data or for the algorithm if it would be easier in the future to calculate for new texts automatically.
+
+# Example data is in the [Data](/Data) folder.
 
 # Website Design Changes
 To accommodate for adding a performance point system and to make the user experience both more enjoyable and informative, there are a few things I think would be simple to add but effective for the aforementioned reasons.
