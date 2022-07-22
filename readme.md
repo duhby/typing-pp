@@ -39,6 +39,7 @@ Star ratings of maps should be displayed on
 - the end screen after finishing a map, possibly next to contributor
 - the text leaderboard info bar, possibly under contributor
 - possibly on the matches (and top scores) tab for each text
+- possibly on replay pages where general information is displayed
 ## Point displays
 Performance points for a given play should be displayed on
 - its own column on text leaderboards (end screen, and leaderboard pages)
