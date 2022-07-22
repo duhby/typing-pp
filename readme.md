@@ -26,8 +26,7 @@ Conventionally, in games with similar systems, the points are called pp for perf
 
 # Data
 You can contact Syndric for the most recent star rating data or for the algorithm if it would be easier in the future to calculate for new texts automatically.
-
-# Example data is in the [Data](/Data) folder.
+Example calculated data for players' scores and total point leaderboards are in the [Data](/Data) folder.
 
 # Website Design Changes
 To accommodate for adding a performance point system and to make the user experience both more enjoyable and informative, there are a few things I think would be simple to add but effective for the aforementioned reasons.
