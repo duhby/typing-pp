@@ -43,7 +43,8 @@ Star ratings of maps should be displayed on
 ## Point displays
 Performance points for a given play should be displayed on
 - its own column on text leaderboards (end screen, and leaderboard pages)
-- its own column on your matches (and top scores) page
+- its own column on the matches page
+- its own column on the top scores page (with the weighted value in brackets next to it ex. 320tp [280])
 - possibly on the end screen of a text below wpm or somewhere similar
 - on replay pages where general information is displayed
 ## Profile changes
