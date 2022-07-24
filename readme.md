@@ -28,7 +28,7 @@ Conventionally, in games with similar systems, the points are called pp for perf
 English quotes that are **enabled** (keyword) are the only texts that should be "ranked" for having points be calculated for them. This does not include dictionary.
 
 # Data
-You can contact Syndric for the most recent star rating data or for the algorithm if it would be easier in the future to calculate for new texts automatically.
+You can contact Syndric for differently formatted star rating data or for the algorithm if it would be easier in the future to calculate for new texts automatically.
 Example calculated data for players' scores and total point leaderboards are in the [data](/data) folder.
 
 # Website Design Changes
