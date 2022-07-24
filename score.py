@@ -17,8 +17,10 @@ def curve_multiplier(wpm):
         return (wpm * 0.01) - 0.55
     elif wpm < 214:
         return (wpm * 0.0128378) - 0.947297
-    else:
+    elif wpm < 250.23:
         return 0.102232 * (1.01349 ** wpm) # in python, ** is a power
+    else:
+        return 0.036411 * (1.01768 ** wpm)
 
 
 if __name__ == '__main__':
