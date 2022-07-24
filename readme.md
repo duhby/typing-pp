@@ -10,7 +10,7 @@ To calculate points with a given wpm and text (see score.py) you use the followi
 33 * star * curve(wpm)
 ```
 The curve function will output a number anywhere from 0 to 6 (if you can get past 300 wpm that is) based on the wpm using the curve below (x axis is wpm, y axis is multiplier).
-![WPM Curve](/curve.png)
+![WPM Curve](/wpm_curve.png)
 
 # Total Score Calculations
 To calculate someone's total points (see total_points.py), you first need to sort them from highest to lowest points. Then you trim the amount of plays you're calculating down to their top 300 (you could also use their top 200-250 considering top players would lose less than 50 total points, but any more than 300 is redundant). You then weigh each play's points using the following equation, where n is the placement of the play, starting at 1 for the highest. You then add up all the weighted values to get their total points.
