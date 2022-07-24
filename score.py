@@ -7,7 +7,7 @@ with open('star_ratings.json', 'r') as file:
 
 
 def get_score(wpm, star):
-    return 33 * star * curve_multiplier(wpm)
+    return 35 * star * curve_multiplier(wpm)
 
 
 def curve_multiplier(wpm):
@@ -26,6 +26,6 @@ def curve_multiplier(wpm):
 if __name__ == '__main__':
     # Example of the current highest play by joshu
     wpm = 241.90
-    star = star_ratings.get('2390') # 2390 is the text id; 7.74325 is the star
+    star = star_ratings.get('2390') # 2390 is the text id; 7.102886 is the star
     points = get_score(wpm=wpm, star=star)
-    print(points) # 667.9644757749904 is the final point value
+    print(points) # 649.8588441028625 is the final point value
