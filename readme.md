@@ -2,14 +2,14 @@
 A performance point system is a way of evaluating and ranking players' skill based on plays they have made on specific maps or quotes by calculating specific plays' worth in points and weighting them. Points are determined by 2 factors, the score (wpm) on the map (text) and the star rating (difficulty) of the map (text). Total points are then calculated for each player by sorting their top 400 or so plays (by points) from highest to lowest, weighing them by making each play worth a smaller percentage of the original points as the position gets farther down, and adding up the weighted values. Someone's total points would be what determines their position like on the current cr leaderboard.
 
 # Star Ratings
-Syndric with the help of me (dubs) created the star rating algorithm. It takes a lot of different variables into account to determine a star rating, and with all the current english texts, the highest rated text is currently text 1526 with a star rating of 13.01 (rounded) and the lowest is text 115 with a star rating of 1.06, although there are only 13 texts with a star rating of less than 3. The algorithm at a high level takes into consideration 3 main topics which is length (52%), density (28%), and obscurity (20%). Density is the amount of stuff in it like length of words, punctuation, numbers, capital letters, etc, which are all worth their own respective amounts. Obscurity is how obscure the combination of letters is.
+Syndric with the help of me (dubs) created the star rating algorithm. It takes a lot of different variables into account to determine a star rating, and with all the current english texts, the highest rated text is currently text 1526 with a star rating of 14.05 (rounded) and the lowest is text 1622 with a star rating of 2.96. The algorithm at a high level takes into consideration 3 main topics which is length (45%), density (28%), and obscurity (27%). Density is the amount of stuff in it like length of words, punctuation, numbers, capital letters, etc, which are all worth their own respective amounts. Obscurity is how obscure combinations of letters are.
 
 # Point Calculations
-To calculate points with a given wpm and text (see score.py) you use the following equation where 33 is a constant value that Syndric and I determined so the top score would be around 600-700 points.
+To calculate points with a given wpm and text (see score.py) you use the following equation where 35 is a constant value that Syndric and I determined so the top score would be around 600-700 points.
 ```py
-33 * star * curve(wpm)
+35 * star * curve(wpm)
 ```
-The curve function will output a number anywhere from 0 to 6 (if you can get past 300 wpm that is) based on the wpm using the curve below (x axis is wpm, y axis is multiplier).
+The curve function will output a number anywhere from 0 to 7 (if you can get past 300 wpm that is) based on the wpm using the curve below (x axis is wpm, y axis is multiplier).
 ![WPM Curve](/wpm_curve.png)
 
 # Total Score Calculations
@@ -22,7 +22,7 @@ points * (0.97 ** (n-1))
 For calculations, the star ratings should go to at least 4 decimal places. For displaying on the website, they should only go to 2 decimals. For points, they should also only go to 2 decimals for both calculations and displaying on the webiste.
 
 # Naming
-Conventionally, in games with similar systems, the points are called pp for performance points. So, for example, you would say that the highest pp play was done by joshu and is worth 667pp. However, Aevistar doesn't think it's a good idea to use this naming system, so we have thought of a few other options. There's tp (typing points), kp (keymash points), and mp (mash points), although a few vocal users in #general like tp the best because it looks like toilet paper.
+Conventionally, in games with similar systems, the points are called pp for performance points. So, for example, you would say that the highest pp play was done by joshu and is worth 649pp. However, Aevistar doesn't think it's a good idea to use this naming system, so we have thought of a few other options. There's tp (typing points), kp (keymash points), and mp (mash points), although a few vocal users in #general like tp the best because it looks like toilet paper.
 
 # Valid texts
 English quotes that are **enabled** (keyword) are the only texts that should be "ranked" for having points be calculated for them. This does not include dictionary.
