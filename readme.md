@@ -22,7 +22,7 @@ points * (0.97 ** (n-1))
 For calculations, the star ratings should go to at least 4 decimal places. For displaying on the website, they should only go to 2 decimals. For points, they should also only go to 2 decimals for both calculations and displaying on the webiste.
 
 # Naming
-Conventionally, in games with similar systems, the points are called pp for performance points. So, for example, you would say that the highest pp play was done by joshu and is worth 649pp. However, Aevistar doesn't think it's a good idea to use this naming system, so we have thought of a few other options. There's tp (typing points), kp (keymash points), and mp (mash points), although a few vocal users in #general like tp the best because it looks like toilet paper.
+Conventionally, in games with similar systems, the points are called pp for performance points. So, for example, you would say that the highest pp play was done by joshu and is worth 649pp. We have thought of a few other options. There's tp (typing points), kp (keymash points), and mp (mash points). However, I think calling them performance points is better because it is more descriptive and alliteration is good.
 
 # Valid texts
 English quotes that are **enabled** (keyword) are the only texts that should be "ranked" for having points be calculated for them. This does not include dictionary.
@@ -51,3 +51,7 @@ Performance points for a given play should be displayed on
 - next to "general, matches, achievements, tournaments" possibly between general and matches, there should be a "top scores" tab or something similar, that is like the matches tab, except the placement on the left is your placement for the text leaderboard itself (side note, it would be nice if the card itself linked to the text leaderboard for both the matches and top scores tabs)
 - a new rectangle in the general tab that displays information like highest point play, total points, and rank
 (another side note, it would be nice if all text leaderboards had a link to the replay if one is available)
+
+# Extras
+There should be systems to be able to easily do the following:
+- Update the star rating of one or multiple texts and update everyone (that has a score on the changed text(s))'s performance points, personal pp leaderboards, and the main pp leaderboard
