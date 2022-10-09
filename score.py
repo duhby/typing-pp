@@ -1,4 +1,4 @@
-# How to calculate a score for a given play on a text given the words per minute and the star rating of that text
+"""Calculate the performance point value of a play."""
 
 import json
 
