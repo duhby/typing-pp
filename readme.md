@@ -13,7 +13,7 @@ The curve function will output a number anywhere from 0 to 7 (if you can get pas
 ![WPM Curve](/wpm_curve.png)
 
 # Total Score Calculations
-To calculate someone's total points (see ![total_points.py](/total_points.py)), you first need to sort them from highest to lowest points. Then you trim the amount of plays you're calculating down to their top 250 (you could also use their top 100-200 considering top players would lose less than 50 total points, but any more than 250 is redundant). You then weigh each play's points using the following equation, where n is the placement of the play, starting at 1 for the highest. You then add up all the weighted values to get their total points.
+To calculate someone's total points (see [total_points.py](/total_points.py)), you first need to sort them from highest to lowest points. Then you trim the amount of plays you're calculating down to their top 250 (you could also use their top 100-200 considering top players would lose less than 50 total points, but any more than 250 is redundant). You then weigh each play's points using the following equation, where n is the placement of the play, starting at 1 for the highest. You then add up all the weighted values to get their total points.
 ```py
 points * (0.97 ** (n-1))
 ```
@@ -29,7 +29,7 @@ English quotes that are **enabled** (keyword) are the only texts that should be 
 
 # Data
 You can contact Syndric for differently formatted star rating data or for the algorithm if it would be easier in the future to calculate for new texts automatically.
-Example calculated data for players' scores and total point leaderboards is on ![my website](https://dubs.rip/leaderboard) folder.
+Example calculated data for players' scores and total point leaderboards is on [my website](https://dubs.rip/leaderboard) folder.
 
 # Website Design Changes
 To accommodate for adding a performance point system and to make the user experience both more enjoyable and informative, there are a few things I think would be simple to add but effective for the aforementioned reasons.
