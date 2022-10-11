@@ -29,7 +29,7 @@ English quotes that are **enabled** (keyword) are the only texts that should be 
 
 # Data
 You can contact Syndric for differently formatted star rating data or for the algorithm if it would be easier in the future to calculate for new texts automatically.
-Example calculated data for players' scores and total point leaderboards is on [my website](https://dubs.rip/leaderboard) folder.
+Example calculated data for players' scores and total point leaderboards is on [my website](https://dubs.rip/leaderboard).
 
 # Website Design Changes
 To accommodate for adding a performance point system and to make the user experience both more enjoyable and informative, there are a few things I think would be simple to add but effective for the aforementioned reasons.
