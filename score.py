@@ -17,15 +17,18 @@ def curve_multiplier(wpm):
         return (wpm * 0.01) - 0.55
     elif wpm < 214:
         return (wpm * 0.0128378) - 0.947297
-    elif wpm < 250.23:
-        return 0.102232 * (1.01349 ** wpm) # in python, ** is a power
-    else:
-        return 0.036411 * (1.01768 ** wpm)
+    elif wpm >= 214:
+        return (wpm * .027907) -4.1721058
+    # Old
+    # elif wpm < 250.23:
+    #     return 0.102232 * (1.01349 ** wpm) # in python, ** is a power
+    # else:
+    #     return 0.036411 * (1.01768 ** wpm)
 
 
 if __name__ == '__main__':
     # Example of the current highest play by joshu
-    wpm = 241.90
-    star = star_ratings.get('2390') # 2390 is the text id; 7.102886 is the star
+    wpm = 241.87
+    star = star_ratings.get('1512') # 1512 is the text id; 8.7122 is the star
     points = get_score(wpm=wpm, star=star)
-    print(points) # 649.8588441028625 is the final point value
+    print(points) # 737.31 is the final point value
