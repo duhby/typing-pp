@@ -9,7 +9,7 @@ To calculate points with a given wpm and text (see [score.py](/score.py)) you us
 ```py
 35 * star * curve(wpm)
 ```
-The curve function will output a number anywhere from 0 to 7 (if you can get past 300 wpm that is) based on the wpm using the curve below (x axis is wpm, y axis is multiplier).
+The curve function will output a number anywhere from 0 to 5 (if you can get past 300 wpm that is) based on the wpm using the curve below (x axis is wpm, y axis is multiplier).
 ![WPM Curve](/wpm_curve.png)
 
 # Total Score Calculations
